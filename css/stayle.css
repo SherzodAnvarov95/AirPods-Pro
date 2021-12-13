@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav{
+   background: #282828; 
+   top: 0;
+   width: 100%;
+   padding: 25px;
+}  
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.nav__section{
+    justify-content: space-between;
+} 
+.nav__header{
+    list-style: none;
+    display: flex;
+}
+
+.header_silka{
+    text-decoration: none;
+    color:  #FFFFFF;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.color{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 248px; */
+}
+.container__header{
+    background: url(../img/Header.png);
+    background-repeat: no-repeat;
+    min-height: 700px;
+    color: #FFFFFF;
+    display: flex;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    
+}
+.container__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container__param{
+    font-size: 100px;
+    
+}
+.container__ul{
+    list-style: none;
+}
+.container_silka{
+    text-decoration: none;
+    color: #171718;
+    padding: 13px 14px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    top: 15px;
+
+}
+.section{
+    background: black;
+}
+.main__section{
+    display: flex;
+    justify-content: space-between;
+}
+.main__param{
+    font-size: 22px;
+    width: 538px;
+    margin-top: 63px;
+    color: #FFFFFF;
+}
+.main__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__paragrif{
+    color: #FFFFFF;
+    width: 333px;
+}
+.section__foother{
+    display: flex;
+    justify-content: space-between;
+    /* background: black;   */
+}
+.section__main{
+   background: #FFF;
+}
+.section_p{
+    padding: 15px 58px 10px;
+    font-size: 20px;
+}
+.section__img{
+    padding: 0 63px 10px;
+}
+.section__h{
+    font-size: 14px;
+    padding: 0 62px 20px;
+    
+}
+.section__phone{
+    list-style: none;
+}
+.section__silka{
+    text-decoration: none;
+    padding: 0 90px 75px;
+    color: black;
+  
+}
+
+.foother{
+    background-color: #282828;
+}
+.foother__routr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
